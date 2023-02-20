@@ -1,6 +1,6 @@
 FROM python:3.10
 
-WORKDIR /Webx
+WORKDIR /TamilanBotsz
 
 COPY requirements.txt ./
 
