@@ -65,10 +65,10 @@ LOG_STR += (f"MAX_LIST_ELM Found, long list will be shortened to first {MAX_LIST
 LOG_STR += f"Your current IMDB template is {IMDB_TEMPLATE}"
 
 SELF_DELETE_SECONDS = int(environ.get('SELF_DELETE_SECONDS', 300))
-SELF_DELETE = environ.get('SELF_DELETE', False)
-if SELF_DELETE == "False":
-    SELF_DELETE = False
+SELF_DELETE = environ.get('SELF_DELETE', True)
+if SELF_DELETE == "True":
+    SELF_DELETE = True
 
-SHORTENR_SITE = environ.get('SHORTENR_SITE', 'omegalinks.in')
+SHORTENR_SITE = environ.get('SHORTENR_SITE', 'shorturllink.in')
 
-SHORTNER_API = environ.get('SHORTNER_API', '64d0231e85bf77018c452d58eab769a98f81626b')
+SHORTNER_API = environ.get('SHORTNER_API', '9d17e6f7547633bab44821b355aec6bb19f85047')
