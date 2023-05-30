@@ -69,6 +69,6 @@ SELF_DELETE = environ.get('SELF_DELETE', False)
 if SELF_DELETE == "False":
     SELF_DELETE = False
 
-SHORTENR_SITE = environ.get('SHORTENR_SITE', 'shrtfly.com')
+SHORTENR_SITE = environ.get('SHORTENR_SITE', 'omegalinks.in')
 
-SHORTNER_API = environ.get('SHORTNER_API', 'e3fef9101f6828a723edad02964cfd37')
+SHORTNER_API = environ.get('SHORTNER_API', '64d0231e85bf77018c452d58eab769a98f81626b')
