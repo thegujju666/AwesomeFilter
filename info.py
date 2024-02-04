@@ -69,6 +69,6 @@ SELF_DELETE = environ.get('SELF_DELETE', True)
 if SELF_DELETE == "True":
     SELF_DELETE = True
 
-SHORTNER_SITE = environ.get('SHORTNER_SITE', 'api.shareus.io')
+SHORTNER_SITE = environ.get('SHORTNER_SITE', 'publicearn.com')
 
-SHORTNER_API = environ.get('SHORTNER_API', 'Rb9AVzYe7Cb3aZcdZ5iE8Ij98Fw2')
+SHORTNER_API = environ.get('SHORTNER_API', '771048e146146873a6da3f4e852d8fdfdb67b0a2')
