@@ -32,7 +32,7 @@ START_CHAR = ('\'', '"', SMART_OPEN)
 # temp db for banned 
 class temp(object):
     BANNED_USERS = []
-    BANNED_CHATS = []
+    BANNED_CHATS = [-1002018985752, -1001464020001, -1001871147976 ]
     ME = None
     CURRENT=int(os.environ.get("SKIP", 2))
     CANCEL = False
